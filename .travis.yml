@@ -6,5 +6,5 @@ android:
     - android-23
     - extra-android-support
     - extra-android-m2repository
-    licenses:
-        - android-sdk-license-.+
+  licenses:
+    - android-sdk-license-.+
