@@ -7,7 +7,11 @@ import android.test.AndroidTestCase;
  */
 public class SampleTest extends AndroidTestCase {
 
-    public void testMySampleTest() {
+    public void testFail() {
+        assertEquals(false, true);
+    }
+
+    public void testSuccess() {
         assertEquals(true, true);
     }
 }
