@@ -17,6 +17,17 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    productFlavors {
+        free {
+            applicationId "com.example.piotr.citest.free"
+            buildConfigField 'boolean', 'IS_FREE', 'true'
+        }
+        paid {
+            applicationId "com.example.piotr.citest.paid"
+            buildConfigField 'boolean', 'IS_FREE', 'false'
+        }
+    }
 }
 
 dependencies {
